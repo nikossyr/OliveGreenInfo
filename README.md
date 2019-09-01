@@ -19,6 +19,6 @@ Download the files and open the project from within [Android Studio](https://dev
 
 ## Screenshots
 <a target="_blank" href="./images/Screenshot_1.png">
-  <img src="./images/Screenshot_1.png" alt="Screenshot 1" style="max-width:30%;">
+  <img src="./images/Screenshot_1.png" alt="Screenshot 1" width="40%">
 </a>
      
