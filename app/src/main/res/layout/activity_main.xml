@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.olivegreeninfo.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/oliveColor"
+            android:gravity="center"
+            android:padding="15sp"
+            android:shadowColor="#000"
+            android:text="@string/olive_green"
+            android:textColor="@color/oliveBright"
+            android:textSize="36sp"
+            tools:fontFamily="@font/lato" />
+
+        <LinearLayout
+            android:id="@+id/subtext"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/title"
+            android:background="@color/oliveMedium"
+            android:gravity="center"
+            android:paddingBottom="18dp"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="8dp"
+            android:paddingTop="18dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/title"
+                android:adjustViewBounds="true"
+                android:maxHeight="100dp"
+                android:minHeight="50dp"
+                android:padding="8dp"
+                android:scaleType="center"
+                android:src="@drawable/olive_oil" />
+
+            <TextView
+                android:id="@+id/tag_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:shadowColor="#000"
+                android:text="@string/tag_line"
+                android:textAlignment="center"
+                android:textColor="@color/oliveColor"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                tools:fontFamily="@font/lato" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/subtext"
+            android:background="@color/oliveBright"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:adjustViewBounds="true"
+                android:onClick="phone_intent"
+                android:padding="10dp"
+                android:src="@drawable/phone_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:onClick="website_intent"
+                android:padding="10dp"
+                android:src="@drawable/globe" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:onClick="email_intent"
+                android:padding="10dp"
+                android:src="@drawable/mail" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:onClick="maps_intent"
+                android:padding="10dp"
+                android:src="@drawable/maps" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:onClick="fb_intent"
+                android:padding="10dp"
+                android:src="@drawable/fb_button" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/action_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/lato_light"
+            android:text="@string/tagline"
+            android:textColor="@color/oliveColor"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:fontFamily="@font/lato_light" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:autoLink="map"
+            android:fontFamily="@font/lato_light"
+            android:text="@string/description"
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            tools:fontFamily="@font/lato_light" />
+
+    </RelativeLayout>
+
+</ScrollView>
+

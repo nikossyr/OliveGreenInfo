@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OliveGreenInfo</string>
+    <string name="olive_green">Olive Green</string>
+    <string name="tagline">\"The best Greek Olive Oil\"</string>
+    <string name="tag_line">Extra Virgin\nExtra Healthy</string>
+    <string name="description">"  We are proud to produce and export the finest olive oil in Greece. The purest, extra virgin quality makes our product one of a kind in the whole Greece.\n   Greek ties to the olive tree run very deep indeed. In fact, Greece is one of the top three olive oil-producing countries in the world, and Greek olive oil is indisputably the finest.\n   Extra virgin olive oil is of exceptional quality, aroma, and taste. The oil comes from the first pressing of the olives, and no chemicals or hot water are added during processing. </string>
+    <string name="phone">800 11 12345</string>
+</resources>
